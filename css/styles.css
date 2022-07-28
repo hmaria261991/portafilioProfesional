@@ -86,3 +86,50 @@ p{
 	font-size: 18px;
 	margin: 20px 0px 20px;
 }
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	/* background-color: #191919; */
+}
+
+.titleAM{
+	width: 550px;
+}
+
+.titleAM h2{
+	color: #357b6d;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+
+.boxAM{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #E7E7E3;
+}
+
+.boxAM h3{
+	color: #2c2c2c;
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.box {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+  }
+
+
+  .card {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
