@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     
-    <link href="css/styles.css" rel="stylesheet" type="text/css">    
+    <link href="css/aboutMe.css" rel="stylesheet" type="text/css">    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
@@ -13,8 +13,7 @@
     <title>Portafolio profesional</title>
   </head>
 
-  <body>
-    <!--Nav section-->
+  <body class="indexBody">
     <div class="menu">
       <nav class="heroNav">
         <ul>
@@ -25,8 +24,93 @@
         </ul>
       </nav>
     </div>
-    <div class="backgroundAboutMe">
-<p>Ingeniera de software, con conocimientos en Java (POO), Javascript, PHP, SQL, UX / UI y aplicaciones de Android (Java). Soy buena comunicandome, lo que hace que mi equipo trabaje de manera cohesionada y ágil. Tengo experiencia trabajando con metodologías Agiles (Kamban / Scrum). Me gusta tener un gran conocimiento del ámbito empresarial y, gracias a mi resilencia, puedo adaptarme a las necesidades empresariales de forma fácil y rápida.</p>
+
+    <div class="hero">
+        <!-- <h2>Sobre mí</h2> -->
+        <!-- <h5>Hola!</h5>
+        <h3>Soy María!</h3> -->
+        <div class="pHero">
+            <p>Soy desarrolladora de software con 5 años de experiencia en desarrollo de aplicaciones. Actualmente trabajo como Advance Software Engineer en GAP Me concentro en el back end de las aplicaciones en Java.</p>
+            <p>Cuento con amplia experiencia trabajando con Microservicios, Spring, REST API, pruebas utilizando entornos de prueba como JUnit y Mockito, conocimiento en varias soluciones de bases de datos, tanto SQL como no SQL, como MySQL, Oracle, MongoDB además de Spring JPA. </p>
+        </div>
+        <a class="btnCV" href="./pdf/testCV.pdf" download="MariaHernandezCV" target="_blank">Descargar CV</a>
     </div>
+    
+    <section class="tecSection"> 
+        <h3>Habilidades Técnicas</h3>
+        <div class="box">
+          <div class="card">
+            <img src="../portafilioProfesional/imgs/icons/logotipo-de-java(2).png" alt="Back End">
+            <h5>Back End</h5>
+            <p>Java(Spring Boot), C#, PHP, JUnit, Maven, Git </p>
+          </div>
+          <div class="card">
+            <img src="../portafilioProfesional/imgs/icons/docker(2).png" alt="Docker">
+            <h5>DevOps</h5>
+            <p>Contenerización con Docker</p>
+          </div>
+          <div class="card">
+            <img src="../portafilioProfesional/imgs/icons/cloud-computing(2).png" alt="Cloud Computing">
+            <h5>Cloud Engineering</h5>
+            <p>AWS(EC2, S3, RDS, Lambda)</p>
+          </div>
+        </div>
+        <div class="box1">
+            <div class="card1">
+                <img src="../portafilioProfesional/imgs/icons/ui-design(2).png" alt="Front End">
+                <h5>Front End</h5>
+                <p>HTML, CSS, JavaScript, Angular, Android</p>
+              </div>
+              <div class="card1">
+                <img src="../portafilioProfesional/imgs/icons/database(2).png" alt="Data Base">
+                <h5>Databases</h5>
+                <p>SQL(MySQL, Oracle)</p>
+                <p>NoSQL(MongoDB)</p>
+              </div>
+              <div class="card1">
+                <img src="../portafilioProfesional/imgs/icons/continuous(2).png" alt="Continuous Integration">
+                <h5>Continuous Integration</h5>
+                <p>Jenkins</p>
+              </div>
+        </div>
+    </section>
+
+    <section class="softSkills">
+        <h3>Habilidades blandas</h3>
+        <div class="boxSoftSkills">
+            <div class="skill"><p>Trabajo en equipo</p></div>
+            <div class="skill"><p>Autogestión e iniciativa</p></div>
+            <div class="skill"><p>Negociación</p></div>
+            <div class="skill"><p>Pensamiento lógico</p></div>  
+        </div>
+
+        <div class="boxSoftSkills">
+            <div class="skill"><p>Compromiso</p></div>
+            <div class="skill"><p>Pensamiento creativo</p></div>
+            <div class="skill"><p>Curiosidad, facilidad de aprendizaje</p></div>
+            <div class="skill"><p>Organización</p></div>   
+        </div>
+    </section>
+
+    <section class="workExperience">
+        <h3>Experiencia laboral</h3>
+        <div class="boxWork">
+            <div class="work">
+                <h4>Advanced Software Engineer</h4>
+                <h5>Growth Acceleration Partners</h5>
+                <p></p>
+            </div>
+            <div class="work">
+                <h4>Software Engineer</h4>
+                <h5>CIP Reporting</h5>
+                <p></p>
+            </div>
+            <div class="work">
+                <h4>Technical Support</h4>
+                <h5>DXC Technology</h5>
+                <p>Soporte de nivel uno resolviendo dificultades técnicas relacionadas con hardware, software y aplicaciones tales como: Office, Windows, Outlook, conexión a Internet y aplicaciones internas.</p>
+            </div>
+        </div>
+    </section>
   </body>
 </html>
