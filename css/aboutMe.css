@@ -104,7 +104,7 @@ nav ul li a:hover{
 	width: 1130px;
     margin-left: 10%;
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 	text-align: center;
 }
 
@@ -169,7 +169,7 @@ nav ul li a:hover{
 	width: 1130px;
     margin-left: 10%;
     margin-top: 80px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 	text-align: center;
 }
 
@@ -189,4 +189,48 @@ nav ul li a:hover{
 	overflow: hidden;
 	text-align: center;
     box-shadow: 5px 10px 18px #d6d6d6;
+}
+
+.workExperience{
+    /* height: 100vh; */
+	width: 100%;
+    /* background-color: #E7E7E3; */
+    padding: 40px 0;
+}
+
+.workExperience h3{
+    color: #2c2c2c;
+	font-size: 20px;
+	width: 1130px;
+    margin-left: 10%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+	text-align: center;
+}
+
+.boxWork{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	/* min-height: 400px; */
+}
+
+.work{
+	/* height: 200px; */
+	width: 750px;
+	padding: 20px 35px;
+	margin: 75px 25px 75px 325px;
+    /* margin: 75px 25px 75px 575px; */
+	position: relative;
+	overflow: hidden;
+	text-align: justify;
+    box-shadow: 5px 10px 18px #d6d6d6;
+}
+
+.line{
+    background-color: #357b6d;
+    height: 3px;
+	width: 250px;
+    margin-left: 40.5%;
+    margin-bottom: 30px;
 }
